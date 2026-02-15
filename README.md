@@ -1,12 +1,12 @@
-📝 Handwriting Classification Using ANN with Keras & TensorFlow
+# 📝 Handwriting Classification Using ANN with Keras & TensorFlow
 
 A neural network model built with TensorFlow and Keras to classify handwritten digits (e.g., using the MNIST dataset). This project trains a simple ANN to recognize handwritten digits with high accuracy and provides scripts for training, evaluation, and prediction.
 
-🚀 Project Overview
+# 🚀 Project Overview
 
 Handwritten digit classification is a classic machine learning problem. This project uses an Artificial Neural Network (ANN) implemented with Keras (TensorFlow backend) to classify 28×28 grayscale images of handwritten digits (0–9).
 
-📌 Features
+# 📌 Features
 
 ✔ Data preprocessing (normalization & reshaping)
 ✔ Train, validate & test model
@@ -14,7 +14,7 @@ Handwritten digit classification is a classic machine learning problem. This pro
 ✔ Predict on new handwritten samples
 ✔ Easy to understand and extend
 
-📦 Tech Stack
+# 📦 Tech Stack
 
 Python 3.x
 
@@ -26,7 +26,7 @@ NumPy
 
 Matplotlib (optional for visualization)
 
-📁 Repository Structure
+# 📁 Repository Structure
 handwriting-classification-ann/
 ├── data/
 │   └── custom_samples/             # Optional: your own handwriting images
@@ -42,11 +42,12 @@ handwriting-classification-ann/
 ├── README.md
 └── LICENSE
 
-📥 Installation
+# 📥 Installation
 
 Clone this repo
 
-git clone https://github.com/<your-username>/handwriting-classification-ann.git
+git clone https://github.com/Narayan-cpu/Handwriting-Classification-using-ANN.git
+
 cd handwriting-classification-ann
 
 
@@ -61,7 +62,7 @@ Install dependencies
 
 pip install -r requirements.txt
 
-🧠 Training the Model
+# 🧠 Training the Model
 
 Run the training script:
 
@@ -70,7 +71,7 @@ python src/train.py
 
 The model will train on the MNIST dataset and save trained weights to models/handwriting_ann.h5.
 
-📊 Evaluate Model
+# 📊 Evaluate Model
 
 Evaluate performance on test data:
 
@@ -83,7 +84,7 @@ Accuracy
 
 Loss
 
-🖋 Predict Handwriting
+# 🖋 Predict Handwriting
 
 To run predictions on custom image samples:
 
@@ -95,7 +96,7 @@ Make sure input images are:
 ✔ 28×28 pixels
 ✔ Black background with white digit
 
-🔧 Customizing the Model
+# 🔧 Customizing the Model
 
 You can change:
 
@@ -107,7 +108,7 @@ Learning rate and optimizer
 
 Epochs and batch size
 
-🧪 Example Results
+# 🧪 Example Results
 Digit	Prediction
 7	7
 3	3
@@ -117,7 +118,7 @@ Digit	Prediction
 Sample predictions will be logged in the console and can optionally be plotted.
 
 
-🙌 Contributing
+# 🙌 Contributing
 
 Contributions are welcome! Feel free to:
 
@@ -128,3 +129,4 @@ Add new features
 Improve documentation
 
 Share better models or visualizations
+
