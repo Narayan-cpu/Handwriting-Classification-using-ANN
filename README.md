@@ -1,4 +1,4 @@
-# 📝 Handwriting Classification Using ANN with Keras & TensorFlow
+# 📝 Handwriting Classification Using ANN with Keras 
 
 A neural network model built with TensorFlow and Keras to classify handwritten digits (e.g., using the MNIST dataset). This project trains a simple ANN to recognize handwritten digits with high accuracy and provides scripts for training, evaluation, and prediction.
 
@@ -128,4 +128,5 @@ Add new features
 Improve documentation
 
 Share better models or visualizations
+
 
