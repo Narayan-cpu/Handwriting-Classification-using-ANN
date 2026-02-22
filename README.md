@@ -117,7 +117,6 @@ Digit	Prediction
 
 Sample predictions will be logged in the console and can optionally be plotted.
 
-
 # 🙌 Contributing
 
 Contributions are welcome! Feel free to:
@@ -129,3 +128,4 @@ Add new features
 Improve documentation
 
 Share better models or visualizations
+
